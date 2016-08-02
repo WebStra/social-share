@@ -1,6 +1,6 @@
 {
-  "name": "chencha/share",
-  "description": "Share links with Laravel 5",
+  "name": "webstra/share",
+  "description": "Share links with Laravel 5 (fork from chencha/share)",
   "keywords": [
     "share",
     "laravel",
