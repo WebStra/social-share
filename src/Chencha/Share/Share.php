@@ -65,8 +65,14 @@ class Share {
         foreach ($only as $varName) {
             $vars[$varName] = $this->$varName;
         }
-
-        $view = array_get($vars['service'], 'view', 'social-share::default');
+		
+		if(! empty($vars['service']['view']))
+		{
+			$view = $vars['service']['view'];
+		} else {
+			$view = array_get($vars['service'], 'view', 'social-share::default');
+		}
+		
         return trim(View::make($view, $vars)->render());
     }
 
