@@ -6,7 +6,7 @@
     "laravel",
     "laravel5"
   ],
-  "version": "5.2.1",
+  "version": "master",
   "license": "MIT",
   "authors": [
     {
@@ -34,7 +34,7 @@
         "tests/TestCase.php"
     ]
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "master",
   "require-dev": {
     "orchestra/testbench": "~3.0",
     "mockery/mockery": "^0.9.4",
